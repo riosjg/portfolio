@@ -1,0 +1,15 @@
+.box{
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (orientation: landscape){
+    .box{
+        /* height: 40vh; */
+        background-repeat: no-repeat;
+    background-size: cover;
+        width: 30vw;
+        float: left;
+    }
+}

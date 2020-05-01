@@ -1,0 +1,13 @@
+#container{
+    
+    padding-top: 10vh;
+    height: auto;
+}
+
+@media (orientation: landscape){
+    #container{
+        margin: 0 4vw;
+        width: 92vw;
+        height: auto;
+    }
+}

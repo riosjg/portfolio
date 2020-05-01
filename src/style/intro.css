@@ -115,7 +115,8 @@
 
 #text span{
   font-weight: bolder;
-  color: rgb(171, 253, 227)
+  color: rgb(250, 142, 142);
+  font-size: 80px;
 }
 
 #btn{
@@ -134,7 +135,7 @@
 }
 
 #hoverbg :hover{
-  background-color: rgba(233, 66, 66, 0.719);
+  background-color: rgba(247, 114, 114, 0.904);
   /* text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black; */
   border-radius: 90px;
   transition: 1s;
@@ -172,6 +173,9 @@
 @media (orientation: portrait){
   #text{
     width: 90vw;
+  }
+ #text span{
+  font-size: 55px;
   }
   .iconContainer{
     margin: 0 2vw;

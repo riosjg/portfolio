@@ -1,7 +1,5 @@
 import React, { useState, useEffect} from 'react';
 import '../style/intro.css';
-// import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
-// import { faCoffee } from '@fontawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandPointRight, faHandPointDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -35,12 +33,12 @@ const Intro = () => {
                 </div>
                 <div id="text" className="">
                     <h2>
-                        Hello, I'm <span>Gabriel Rios</span>.
-                        <br/>
-                        I'm a Front-End web developer.
-                    </h2>
+                        HELLO, I AM <br/><span>Gabriel Rios</span>
+                        <br/></h2>
+                        <h5>FRONT-END WEB DEVELOPER</h5>
+                    
                     <div id="hoverbg">
-                        <button id="btn" onMouseOver={changeArrowIcon} onMouseOut={changeArrowIcon} >Check my projects
+                        <button id="btn" onMouseOver={changeArrowIcon} onMouseOut={changeArrowIcon} >CHECK MY PROJECTS
                             <div  className="iconContainer"><FontAwesomeIcon id="arrowIcon" icon={currentArrowIcon} /></div> 
                         </button>
                     </div>
