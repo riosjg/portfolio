@@ -4,6 +4,8 @@
     background-size: cover;
 }
 
+
+
 @media (orientation: landscape){
     .box{
         /* height: 40vh; */

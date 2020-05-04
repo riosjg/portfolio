@@ -128,6 +128,7 @@
   padding: 1vh 1vw;
   transition: 4s;
   transition: all 0.5s ease, background-color 0.8s linear;
+  outline: none;
 }
 
 #btn :focus{

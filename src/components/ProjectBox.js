@@ -10,9 +10,11 @@ const ProjectBox = (props) => {
     }
     useEffect( () => {
         chargeBoxes(props)
-    }, [] )
+    }, [props.bg] )
     return ( 
-        <div className="box"> </div>
+        <div className="box">
+            {/* <img src={props.bg}/> */}
+        </div>
      );
 }
  
